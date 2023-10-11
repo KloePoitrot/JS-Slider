@@ -1,0 +1,39 @@
+a{
+    text-decoration: none;
+    color:#fff
+}
+
+main{
+    width:700px;
+    margin:auto
+}
+
+#slider{
+    min-height:500px!important;
+    background-size:cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#slider a{
+    justify-content: center;
+}
+
+#before, #after{
+    background: rgba(0,0,0,0.3);
+    color:white;
+    padding: 1rem 1.5rem;
+}
+.dots a{
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    gap:30px;
+    color:#fff;
+}
+
+.dots{
+    display:flex;
+    justify-content: space-between;
+    background:#2d2b2b
+}
